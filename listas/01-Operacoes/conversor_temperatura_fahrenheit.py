@@ -14,4 +14,4 @@ def converter_celsius_para_fahrenheit(graus_celsius):
     if not isinstance(graus_celsius, (int, float)):
         raise TypeError("A temperatura deve ser um numero")
     fahrenheit = (9 / 5 * graus_celsius) + 32
-    return f"A temperatura em Fahrenheit é: {fahrenheit:.2f}"
+    return f"A temperatura em Fahrenheit é: {fahrenheit:.2f}(F)"
