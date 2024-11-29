@@ -11,9 +11,7 @@ def converter_celsius_para_fahrenheit(graus_celsius):
     Retorna:
     str: A temperatura convertida em Fahrenheit, formatada com duas casas decimais.
     """
-    # Verifica se a entrada eh um numero
     if not isinstance(graus_celsius, (int, float)):
         raise TypeError("A temperatura deve ser um numero")
     fahrenheit = (9 / 5 * graus_celsius) + 32
-    # Retorna a temperatura formatada
-    return f"A temperatura em Fahrenheit eh: {fahrenheit:.2f}"
+    return f"A temperatura em Fahrenheit é: {fahrenheit:.2f}"
