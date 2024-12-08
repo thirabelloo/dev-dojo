@@ -8,12 +8,12 @@ def calcula_salario_funcionarios(
     Calcula o salário líquido de um funcionário.
 
     Parâmetros:
-    horas_trabalhadas (float): Horas trabalhadas.
-    valor_hora_trabalho (float): Valor da hora de trabalho.
-    percentual_desconto (float): Percentual de desconto.
+        horas_trabalhadas (float): Horas trabalhadas.
+        valor_hora_trabalho (float): Valor da hora de trabalho.
+        percentual_desconto (float): Percentual de desconto.
 
     Retorna:
-    dict: Um dicionário contendo o salário base e o salário líquido formatados com duas casas decimais.
+        dict: Um dicionário contendo o salário base e o salário líquido formatados com duas casas decimais.
     """
     try:
         if horas_trabalhadas < 0 or valor_hora_trabalho < 0 or percentual_desconto < 0:

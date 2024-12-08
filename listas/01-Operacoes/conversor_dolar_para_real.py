@@ -8,7 +8,7 @@ def obtendo_cotacao_dolar():
     Obtém a cotação atual do dólar em relação ao real brasileiro.
 
     Retorna:
-    float: Cotação do dólar em BRL.
+        float: Cotação do dólar em BRL.
     """
     url = "https://economia.awesomeapi.com.br/json/last/USD-BRL"
     try:

@@ -8,14 +8,14 @@ def volume_esfera(raio):
     Calcula o volume de uma esfera dado o seu raio.
 
     Parâmetros:
-    raio (int ou float): O raio da esfera. Deve ser um número positivo.
+        raio (int ou float): O raio da esfera. Deve ser um número positivo.
 
     Levanta:
-    TypeError: Se o raio não for um número (int ou float).
-    ValueError: Se o raio for um número negativo.
+        TypeError: Se o raio não for um número (int ou float).
+        ValueError: Se o raio for um número negativo.
 
     Retorna:
-    float: O volume da esfera calculado.
+        float: O volume da esfera calculado.
     """
     if not isinstance(raio, (int, float)):
         raise TypeError("O raio deve ser um numero.")

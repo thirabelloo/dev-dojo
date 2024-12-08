@@ -7,10 +7,10 @@ def calcula_area_circulo(raio):
     Calcula a área de um círculo dado o raio.
 
     Parâmetros:
-    raio (float): O raio do círculo. Deve ser um número positivo.
+        raio (float): O raio do círculo. Deve ser um número positivo.
 
     Retorna:
-    str: A área do círculo formatada com duas casas decimais.
+        str: A área do círculo formatada com duas casas decimais.
     """
     try:
         if raio < 0:

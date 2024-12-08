@@ -6,10 +6,10 @@ def converter_fahrenheit_para_celsius(graus_fahrenheit):
     Converte uma temperatura de Fahrenheit para Celsius.
 
     Parâmetros:
-    graus_fahrenheit (float): A temperatura em graus Fahrenheit.
+        graus_fahrenheit (float): A temperatura em graus Fahrenheit.
 
     Retorna:
-    str: A temperatura convertida em Celsius, formatada com duas casas decimais.
+        str: A temperatura convertida em Celsius, formatada com duas casas decimais.
     """
     if not isinstance(graus_fahrenheit, (int, float)):
         raise TypeError("A temperatura deve ser um numero")

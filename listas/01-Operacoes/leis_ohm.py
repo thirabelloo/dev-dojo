@@ -20,13 +20,13 @@ def entrada_usuario(mensagem):
     Obtém um número do usuário e lida com entradas inválidas.
 
     Parâmetros:
-    mensagem (str): A mensagem a ser exibida ao usuário ao solicitar o número.
+        mensagem (str): A mensagem a ser exibida ao usuário ao solicitar o número.
 
     Levanta:
-    ValueError: Se o usuário não inserir um número válido.
+        ValueError: Se o usuário não inserir um número válido.
 
     Retorna:
-    float: O número válido inserido pelo usuário.
+        float: O número válido inserido pelo usuário.
     """
     while True:
         try:
@@ -40,14 +40,14 @@ def calcular_resistencia(tensao, corrente):
     Calcula a resistência com base na tensão e corrente fornecidas.
 
     Parâmetros:
-    tensao (float): O valor da tensão em volts.
-    corrente (float): O valor da corrente em amperes.
+        tensao (float): O valor da tensão em volts.
+        corrente (float): O valor da corrente em amperes.
 
     Levanta:
-    ValueError: Se a corrente for zero, pois isso resultaria em divisão por zero.
+        ValueError: Se a corrente for zero, pois isso resultaria em divisão por zero.
 
     Retorna:
-    str: A resistência calculada em ohms.
+        str: A resistência calculada em ohms.
     """
     if corrente == 0:
         return "Não podemos dividir por zero."
@@ -59,11 +59,11 @@ def calcular_tensao(resistencia, corrente):
     Calcula a tensão com base na resistência e corrente fornecidas.
 
     Parâmetros:
-    resistencia (float): O valor da resistência em ohms.
-    corrente (float): O valor da corrente em amperes.
+        resistencia (float): O valor da resistência em ohms.
+        corrente (float): O valor da corrente em amperes.
 
     Retorna:
-    str: A tensão calculada em volts.
+        str: A tensão calculada em volts.
     """
     return f"{resistencia * corrente:.2f} volts"
 
@@ -73,14 +73,14 @@ def calcular_corrente(tensao, resistencia):
     Calcula a corrente com base na tensão e resistência fornecidas.
 
     Parâmetros:
-    tensao (float): O valor da tensão em volts.
-    resistencia (float): O valor da resistência em ohms.
+        tensao (float): O valor da tensão em volts.
+        resistencia (float): O valor da resistência em ohms.
 
     Levanta:
-    ValueError: Se a resistência for zero, pois isso resultaria em divisão por zero.
+        ValueError: Se a resistência for zero, pois isso resultaria em divisão por zero.
 
     Retorna:
-    str: A corrente calculada em amperes.
+        str: A corrente calculada em amperes.
     """
     if resistencia == 0:
         return "Não podemos dividir por zero."
@@ -92,11 +92,11 @@ def calcular_potencia(tensao, corrente):
     Calcula a potência com base na tensão e corrente fornecidas.
 
     Parâmetros:
-    tensao (float): O valor da tensão em volts.
-    corrente (float): O valor da corrente em amperes.
+        tensao (float): O valor da tensão em volts.
+        corrente (float): O valor da corrente em amperes.
 
     Retorna:
-    str: A potência calculada em watts.
+        str: A potência calculada em watts.
     """
     return f"{tensao * corrente:.2f} watts"
 
@@ -106,13 +106,13 @@ def realizar_operacao(operacao, tensao, corrente, resistencia):
     Realiza a operação desejada de acordo com a seleção do usuário.
 
     Parâmetros:
-    operacao (str): Operação selecionada pelo usuário.
-    tensao (float): Valor da tensão fornecida.
-    corrente (float): Valor da corrente fornecida.
-    resistencia (float): Valor da resistência fornecida.
+        operacao (str): Operação selecionada pelo usuário.
+        tensao (float): Valor da tensão fornecida.
+        corrente (float): Valor da corrente fornecida.
+        resistencia (float): Valor da resistência fornecida.
 
     Retorna:
-    str: Resultado da operação ou mensagem de erro.
+        str: Resultado da operação ou mensagem de erro.
     """
     operacoes = {
         "1": calcular_resistencia,

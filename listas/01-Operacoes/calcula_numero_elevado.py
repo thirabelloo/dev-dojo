@@ -6,7 +6,7 @@ def operacoes_numero():
     Lê um número inteiro fornecido pelo usuário, calcula o quadrado, o cubo e a décima potência do número, e retorna a soma desses valores.
 
     Retorna:
-    str: Uma string formatada com os resultados das operações e a soma.
+        str: Uma string formatada com os resultados das operações e a soma.
     """
 
     try:

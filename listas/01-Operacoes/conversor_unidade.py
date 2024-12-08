@@ -8,7 +8,8 @@ def conversor_unidade_ft():
 
     Solicita ao usuário que digite uma medida em pés, converte a medida para metros e centímetros, e exibe os resultados.
 
-    Retorna: None: Esta função não retorna nenhum valor. Os resultados são impressos diretamente.
+    Retorna:
+        None: Esta função não retorna nenhum valor. Os resultados são impressos diretamente.
     """
 
     try:

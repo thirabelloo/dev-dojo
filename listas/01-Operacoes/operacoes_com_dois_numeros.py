@@ -9,14 +9,14 @@ def operacoes_matematicas():
     Em caso de tentativa de divisão por zero, informa o usuário e não realiza a operação de divisão.
 
     Solicita ao usuário:
-    - O valor do primeiro número (inteiro)
-    - O valor do segundo número (inteiro)
+        - O valor do primeiro número (inteiro)
+        - O valor do segundo número (inteiro)
 
     Calcula e imprime:
-    - A soma dos dois números
-    - A subtração do segundo número a partir do primeiro
-    - A multiplicação dos dois números
-    - A divisão do primeiro número pelo segundo, se possível (evitando divisão por zero)
+        - A soma dos dois números
+        - A subtração do segundo número a partir do primeiro
+        - A multiplicação dos dois números
+        - A divisão do primeiro número pelo segundo, se possível (evitando divisão por zero)
     """
 
     try:

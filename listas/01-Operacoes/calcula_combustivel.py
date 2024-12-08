@@ -6,11 +6,11 @@ def calcula_litros_combustivel(tempo_gasto, velocidade):
     Calcula a quantidade de litros de combustível consumidos em uma viagem.
 
     Parâmetros:
-    tempo_gasto (float): Tempo gasto na viagem em horas.
-    velocidade (float): Velocidade média do automóvel em km/h.
+        tempo_gasto (float): Tempo gasto na viagem em horas.
+        velocidade (float): Velocidade média do automóvel em km/h.
 
     Retorna:
-    float: A quantidade de litros de combustível consumidos, formatada com duas casas decimais.
+        float: A quantidade de litros de combustível consumidos, formatada com duas casas decimais.
     """
     autonomia_automovel = 12
     if not isinstance(velocidade, (int, float)) or not isinstance(
