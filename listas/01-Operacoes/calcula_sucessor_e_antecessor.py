@@ -5,7 +5,7 @@ def calcula_antecessor_sucessor():
     """
     Solicita um número inteiro ao usuário, calcula o antecessor e o sucessor do número fornecido, e exibe os resultados.
 
-    Retorna: 
+    Retorna:
         None: Esta função não retorna nenhum valor. Os resultados são impressos"""
     try:
         numero = int(input("Digite o numero:"))
