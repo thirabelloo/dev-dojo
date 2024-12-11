@@ -23,12 +23,12 @@ def imprime_menu():
     """
     print(
         """
-    Calculadora Simples com 2 números\n 
-        Operações 
-        (+) - Soma 
-        (-) - Subtração 
-        (*) - Multiplicação 
-        (/) - Divisão 
+    Calculadora Simples com 2 números\n
+        Operações
+        (+) - Soma
+        (-) - Subtração
+        (*) - Multiplicação
+        (/) - Divisão
         """
     )
 
