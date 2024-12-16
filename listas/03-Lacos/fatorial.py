@@ -25,6 +25,13 @@ def calcula_fatorial(numero):
 
 
 def operacao_fatorial():
+    """
+    Solicita ao usuário um número inteiro para calcular seu fatorial.
+    Calcula o fatorial do número fornecido pelo usuário.
+
+    Returns:
+        int or str: O resultado do cálculo fatorial, ou uma mensagem de erro se a entrada for inválida.
+    """
     try:
         numero_usuario = int(
             input("Digite um número inteiro para calcular a fatorial: ")
