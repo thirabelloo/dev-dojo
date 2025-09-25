@@ -36,11 +36,46 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 
 ***
 
-![Exercício 1.6](image/capitulo_01/exercicio1.6.png)  
+![Exercício 1.6](image/capitulo_01/exercicio1.6.png)
+
 [Script 1.6 - Calcula consumo de combustível](scripts/capitulo_01/calcula_consumo_combustivel.py)
 
 ***
 
+![Exercício 1.7](image/capitulo_01/exercicio1.7.png)
+
+[Script 1.7 - Valores invertidos](scripts/capitulo_01/valores_invertidos.py)
+
+***
+![Exercício 1.8](image/capitulo_01/exercicio1.8.png)
+
+[Script 1.8 - Calcula valor de prestação atrasada](scripts/capitulo_01/calcula_valor_prestacao_atrasada.py)
+
+***
+
+![Exercício 1.9](image/capitulo_01/exercicio1.9.png)
+
+[Script 1.9 - Calcula volume da caixa](scripts/capitulo_01/calcula_volume_caixa.py)
+
+***
+
+![Exercício 1.10](image/capitulo_01/exercicio1.10.png)
+
+[Script 1.10 - Soma de números elevados](scripts/capitulo_01/soma_numeros_elevados.py)
+
+***
+
+![Exercício 1.11](image/capitulo_01/exercicio1.11.png)
+
+[Script 1.11 - Converter real para dólar](scripts/capitulo_01/converter_real_para_dolar.py)
+
+***
+
+![Exercício 1.12](image/capitulo_01/exercicio1.12.png)
+
+[Script 1.12 - Conversor de moeda](scripts/capitulo_01/conversor_moeda.py)
+
+***
 ## Capítulo 2
 
 *Adicione aqui os exercícios e scripts do capítulo 2.*
