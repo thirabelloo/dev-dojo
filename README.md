@@ -67,15 +67,17 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 
 ![Exercício 1.11](image/capitulo_01/exercicio1.11.png)
 
-[Script 1.11 - Converter real para dólar](scripts/capitulo_01/converter_real_para_dolar.py)
+[Script 1.11 - Converter real para dólar](scripts/capitulo_01/conversor_moeda.py)
 
 ***
 
 ![Exercício 1.12](image/capitulo_01/exercicio1.12.png)
 
-[Script 1.12 - Conversor de moeda](scripts/capitulo_01/conversor_moeda.py)
+[Script 1.12 - Conversor dólar para real](scripts/capitulo_01/conversor_moeda.py)
 
 ***
+
+
 ## Capítulo 2
 
 *Adicione aqui os exercícios e scripts do capítulo 2.*
