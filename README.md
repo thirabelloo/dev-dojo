@@ -77,6 +77,45 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 
 ***
 
+![Exercício 1.13](image/capitulo_01/exercicio1.13.png)  
+[Script 1.13 - Calcula reajuste salarial](scripts/capitulo_01/calcular_reajuste_salarial.py)
+
+***
+
+![Exercício 1.14](image/capitulo_01/exercicio1.14.png)  
+[Script 1.14 - Operações numéricas](scripts/capitulo_01/operacoes_numericas.py)
+
+***
+
+![Exercício 1.15](image/capitulo_01/exercicio1.15.png)  
+[Script 1.15 - Calcula velocidade de um projétil](scripts/capitulo_01/calcula_velocidade_projetil.py)
+
+***
+
+![Exercício 1.16.1](image/capitulo_01/exercicio1.16.1.png)  
+![Exercício 1.16.2](image/capitulo_01/exercicio1.16.2.png)  
+[Script 1.16 - Calcula volume da esfera](scripts/capitulo_01/calcula_volume_esfera.py)
+
+***
+
+![Exercício 1.17](image/capitulo_01/exercicio1.17.png)  
+[Script 1.17 - Conversor de pés para metros](scripts/capitulo_01/conversor_unidades_pes_metro.py)
+
+***
+
+![Exercício 1.18](image/capitulo_01/exercicio1.18.png)  
+[Script 1.18 - Calcula antecessor e sucessor](scripts/capitulo_01/calcula_antecessor_e_sucessor.py)
+
+***
+
+![Exercício 1.19.1](image/capitulo_01/exercicio1.19.1.png)  
+![Exercício 1.19.2](image/capitulo_01/exercicio1.19.2.png)  
+![Exercício 1.19.3](image/capitulo_01/exercicio1.19.3.png)  
+[Script 1.19 - Calculadora elétrica (Lei de Ohm)](scripts/capitulo_01/calcula_leis_ohms.py)
+
+***
+
+
 
 ## Capítulo 2
 
