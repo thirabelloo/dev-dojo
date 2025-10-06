@@ -126,10 +126,60 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 ***
 
 
-
 ## Capítulo 2
 
-*Adicione aqui os exercícios e scripts do capítulo 2.*
+
+![Exercício 2.1](image/capitulo_02/exercicio2.1.png)
+
+
+[Script 2.1 – Calcula média e situação do aluno](scripts/capitulo_02/calcular_notas_alunos.py)
+
+
+***
+
+
+![Exercício 2.2](image/capitulo_02/exercicio2.2.png)
+
+[Script 2.2 – Ordena números em ordem crescente](scripts/capitulo_02/ordena_numeros_ordem_crescente.py)
+
+
+***
+
+![Exercício 2.3](image/capitulo_02/exercicio2.3.png)
+
+[Script 2.3 – Verifica números divisíveis por 2 e 3](scripts/capitulo_02/numeros_divisiveis.py)
+
+***
+
+![Exercício 2.4](image/capitulo_02/exercicio2.4.png)
+
+[Script 2.4 – Identifica o maior e o menor número](scripts/capitulo_02/numeros_maior_e_menor.py)
+
+***
+
+![Exercício 2.5](image/capitulo_02/exercicio2.5.png)
+
+[Script 2.5 – Leitura condicional de valores](scripts/capitulo_02/leitura_condicional.py)
+
+***
+
+![Exercício 2.6](image/capitulo_02/exercicio2.6.png)
+
+[Script 2.6 – Multiplicação com validação condicional](scripts/capitulo_02/operacao_multiplicao_condicional.py)
+
+***
+
+![Exercício 2.7](image/capitulo_02/exercicio2.7.png)
+
+[Script 2.7 – Calculadora básica com menu de operações](scripts/capitulo_02/calculadora_v1.py)
+
+***
+
+![Exercício 2.8](image/capitulo_02/exercicio2.8.png)
+
+[Script 2.8 – Calculadora de IMC com classificação](scripts/capitulo_02/calculadora_imc.py)
+
+***
 
 ## Capítulo 3
 
