@@ -61,7 +61,7 @@ def main():
     quantidade = obter_total_de_entradas()
     numeros = [coletar_numero(i + 1) for i in range(quantidade)]
     filtrados = filtrar_divisiveis_por_2_ou_3(numeros)
-    print(f"Números divisíveis por 2 ou 3: { ', '.join(map(str, sorted(filtrados)))}")
+    print(f"Números divisíveis por 2 ou 3: {', '.join(map(str, sorted(filtrados)))}")
 
 
 if __name__ == "__main__":
