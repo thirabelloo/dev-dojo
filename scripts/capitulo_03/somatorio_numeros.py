@@ -64,7 +64,7 @@ def main():
 
         validar_intervalos(x, y)
         resultado = somatoria(numero_inicial=x, numero_final=y)
-        print(f"\n✅  O somatório dos números de {x} até {y} é: {resultado}")
+        print(f"\nO somatório dos números de {x} até {y} é: {resultado}")
     except ValueError as e:
         print(f"\nErro: {e}")
     except KeyboardInterrupt:
