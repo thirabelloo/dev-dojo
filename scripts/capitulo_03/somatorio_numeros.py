@@ -68,7 +68,7 @@ def main():
     except ValueError as e:
         print(f"\nErro: {e}")
     except KeyboardInterrupt:
-        print("\nExecução interrompida pelo usuário.")
+        print("\nExecução interrompida pelo usuário. Até a próxima!")
 
 
 if __name__ == "__main__":
