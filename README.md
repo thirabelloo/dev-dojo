@@ -2,7 +2,7 @@
 
 Este projeto reúne exercícios práticos de Python organizados por capítulos. Cada capítulo aborda conceitos fundamentais da linguagem, com exemplos e scripts para facilitar o aprendizado. Os exercícios incluem imagens ilustrativas e links para os códigos correspondentes.
 
-## Capítulo 1
+## Capítulo 1 - Variáveis, Tipos de Dados, Constantes, Operadores Aritméticos, Expressões
 
 Exercícios introdutórios sobre variáveis, tipos de dados e operações básicas.
 
@@ -126,7 +126,7 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 ***
 
 
-## Capítulo 2
+## Capítulo 2 - Estruturas de Decisão
 
 
 ![Exercício 2.1](image/capitulo_02/exercicio2.1.png)
@@ -181,9 +181,75 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 
 ***
 
-## Capítulo 3
+## Capítulo 3 - Laços de Repetição
 
-*Adicione aqui os exercícios e scripts do capítulo 3.*
+![Exercício 3.1](image/capitulo_03/exercicio3.1.png)
+
+[Script 3.1 - Calcula números elevados ao quadrado](scripts/capitulo_03/calcula_numeros_elevados_quadrado.py)
+
+***
+
+![Exercício 3.2](image/capitulo_03/exercicio3.2.png)
+
+[Script 3.2 - Exibe tabuada de um número](scripts/capitulo_03/tabuada.py)
+
+***
+
+![Exercício 3.3](image/capitulo_03/exercicio3.3.png)
+
+[Script 3.3 - Calcula somatório de números](scripts/capitulo_03/somatorio_numeros.py)
+
+***
+
+![Exercício 3.4](image/capitulo_03/exercicio3.4.png)
+
+[Script 3.4 - Lista números pares em uma faixa](scripts/capitulo_03/numeros_pares_por_faixa.py)
+
+***
+
+![Exercício 3.5](image/capitulo_03/exercicio3.5.png)
+
+[Script 3.5 - Gera sequência de Fibonacci](scripts/capitulo_03/fibonacci.py)
+
+***
+
+![Exercício 3.6](image/capitulo_03/exercicio3.6.png)
+
+[Script 3.6 - Calcula fatorial de um número](scripts/capitulo_03/calcula_fatorial.py)
+
+***
+
+![Exercício 3.7](image/capitulo_03/exercicio3.7.png)
+
+[Script 3.7 - Calcula fatorial de cinco números](scripts/capitulo_03/calcula_fatorial_cinco_numeros.py)
+
+***
+
+![Exercício 3.8](image/capitulo_03/exercicio3.8.png)
+
+[Script 3.8 - Exibe tabuada de um número](scripts/capitulo_03/tabuada.py)
+
+***
+
+![Exercício 3.9](image/capitulo_03/exercicio3.9.png)
+
+[Script 3.9 - Calculadora básica (versão 2)](scripts/capitulo_03/calculadora_v2.py)
+
+***
+
+![Exercício 3.10](image/capitulo_03/exercicio3.10.png)
+
+[Script 3.10 - Acesso ao sistema (autenticação)](scripts/capitulo_03/acesso_ao_sistema.py)
+
+***
+
+![Exercício 3.11.1](image/capitulo_03/exercicio3.11.1.png)
+
+![Exercício 3.11.2](image/capitulo_03/exercicio3.11.2.png)
+
+[Script 3.11 - Equação de Pell](scripts/capitulo_03/equacao_pell.py)
+
+***
 
 ## Capítulo 4
 
