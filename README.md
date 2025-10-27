@@ -276,8 +276,6 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 
 ***
 
-
-
 ## Capítulo 5 - Métodos/Funções
 
 *Adicione aqui os exercícios e scripts do capítulo 5.*
