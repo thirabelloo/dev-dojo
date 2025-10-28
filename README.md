@@ -2,6 +2,15 @@
 
 Este projeto reúne exercícios práticos de Python organizados por capítulos. Cada capítulo aborda conceitos fundamentais da linguagem, com exemplos e scripts para facilitar o aprendizado. Os exercícios incluem imagens ilustrativas e links para os códigos correspondentes.
 
+## Índice
+
+- [Capítulo 1 — Variáveis, Tipos de Dados, Constantes, Operadores Aritméticos, Expressões](#capítulo-1---variáveis-tipos-de-dados-constantes-operadores-aritméticos-expressões)
+- [Capítulo 2 — Estruturas de Decisão](#capítulo-2---estruturas-de-decisão)
+- [Capítulo 3 — Laços de Repetição](#capítulo-3---laços-de-repetição)
+- [Capítulo 4 — Vetores](#capítulo-4---vetores)
+- [Capítulo 5 — Métodos/Funções](#capítulo-5---métodosfunções)
+- [Referências](#referências)
+
 ## Capítulo 1 - Variáveis, Tipos de Dados, Constantes, Operadores Aritméticos, Expressões
 
 Exercícios introdutórios sobre variáveis, tipos de dados e operações básicas.
