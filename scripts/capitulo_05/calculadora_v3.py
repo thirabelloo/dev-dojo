@@ -8,15 +8,7 @@ números para o cálculo.
 """
 
 # Constantes
-SAIR = "0"
-
-TIPO_OPERACOES = {
-    "1": "Adição",
-    "2": "Subtração",
-    "3": "Multiplicação",
-    "4": "Divisão",
-    SAIR: "Sair",
-}
+EXIT = "0"
 
 
 def somar(a, b):
@@ -82,65 +74,86 @@ def dividir(a, b):
 
 # Mapeamento de operações para funções
 OPERACOES = {
-    "1": somar,
-    "2": subtrair,
-    "3": multiplicar,
-    "4": dividir,
+    "1": {"nome": "Adição", "simbolo": "+", "func": somar},
+    "2": {"nome": "Subtração", "simbolo": "-", "func": subtrair},
+    "3": {"nome": "Multiplicação", "simbolo": "*", "func": multiplicar},
+    "4": {"nome": "Divisão", "simbolo": "/", "func": dividir},
+    EXIT: {"nome": "Sair", "simbolo": "", "func": None},
 }
 
 
-def coletar_numero(posicao):
+def solicitar_numero(mensagem):
     """
-    Solicita ao usuário a entrada de um número.
+    Solicita ao usuário a entrada de um número decimal válido.
 
     Args:
-        posicao (str): Identificação da posição do número (ex.: "primeiro", "segundo").
+        mensagem (str): Texto exibido ao usuário.
 
     Returns:
-        float: Número informado pelo usuário.
+        float: Número digitado pelo usuário.
     """
     while True:
         try:
-            return float(input(f"Informe o {posicao} número: "))
+            return float(input(mensagem))
         except ValueError:
-            print("Erro: Digite um número válido.")
+            print("Entrada inválida. Por favor, digite um número válido.")
 
 
-def exibir_menu():
+def exibir_menu_operacoes():
     """
     Exibe o menu de operações disponíveis e solicita a escolha do usuário.
 
     Returns:
-        str: Operação escolhida pelo usuário.
+        str: Código da operação escolhida.
     """
-    print("\nOperações disponíveis:")
-    for simbolo, nome in TIPO_OPERACOES.items():
-        print(f" {simbolo} -> {nome}")
+
+    print("\nMenu de Operações Disponíveis:")
+    for codigo, dados_operacao in OPERACOES.items():
+        print(f" {codigo} -> {dados_operacao['nome']}")
 
     while True:
-        escolha = input("Escolha a operação desejada: ").strip()
-        if escolha in TIPO_OPERACOES:
-            return escolha
+        escolha_operacao = input("Escolha a operação desejada: ").strip()
+        if escolha_operacao in OPERACOES:
+            return escolha_operacao
         print("Operação inválida. Escolha uma operação válida.")
 
 
-def calcular(operador, a, b):
+def aplicar_operacao(codigo_operacao, numero1, numero2):
     """
-    Realiza o cálculo com base na operação escolhida e nos números fornecidos.
+    Executa a operação matemática com os números fornecidos.
 
     Args:
-        operador (str): Operação escolhida (ex.: "1" para soma).
-        a (float): Primeiro número.
-        b (float): Segundo número.
+        codigo_operacao (str): Código da operação.
+        numero1 (float): Primeiro número.
+        numero2 (float): Segundo número.
 
     Returns:
-        str: Resultado do cálculo ou mensagem de erro.
+        float: Resultado da operação.
+
+    Raises:
+        ValueError: Se o código da operação for inválido.
     """
+    operacao = OPERACOES[codigo_operacao]["func"]
+    if not operacao:
+        raise ValueError("Operação inválida.")
+    return operacao(numero1, numero2)
+
+
+def processar_operacao(operador):
+    """
+    Processa a operação escolhida pelo usuário e exibe o resultado formatado.
+
+    Args:
+        codigo_operacao (str): Código da operação selecionada.
+    """
+    simbolo = OPERACOES[operador]["simbolo"]
+    numero1 = solicitar_numero("Informe o 1º número: ")
+    numero2 = solicitar_numero("Informe o 2º número: ")
     try:
-        resultado = OPERACOES[operador](a, b)
-        return f"Resultado: {a} {operador} {b} = {resultado}"
-    except ZeroDivisionError as e:
-        return f"Erro: {e}"
+        resultado = aplicar_operacao(operador, numero1, numero2)
+        print(f"\n📌 Resultado: {numero1} {simbolo} {numero2} = {resultado}")
+    except (ZeroDivisionError, ValueError) as e:
+        print(f"\nErro: {e}")
 
 
 def main():
@@ -153,14 +166,11 @@ def main():
     print("🧮 Bem-vindo à Calculadora Interativa!")
     try:
         while True:
-            operador = exibir_menu()
-            if operador == SAIR:
+            codigo_operacao = exibir_menu_operacoes()
+            if codigo_operacao == EXIT:
                 print("Encerrando... Obrigado por utilizar a calculadora.")
                 break
-            x = coletar_numero("primeiro")
-            y = coletar_numero("segundo")
-            resultado = calcular(operador, x, y)
-            print(f"\n{resultado}")
+            processar_operacao(codigo_operacao)
     except KeyboardInterrupt:
         print("\nInterrupção detectada. Encerrando a calculadora com segurança.")
 
