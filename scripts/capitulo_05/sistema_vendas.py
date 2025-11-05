@@ -256,22 +256,22 @@ def operacoes():
     }
 
 
-def menu_principal(historico, operacoes):
+def menu_principal(historico, operacao):
     """
     Exibe o menu principal e gerencia a execução das operações.
 
     Args:
         historico (deque): Histórico de vendas.
-        operacoes (dict): Operações disponíveis.
+        operacao (dict): Operações disponíveis.
     """
 
     while True:
         print("\nBem-vindo(a) ao sistema de vendas Express🐊!\n")
-        for chave, op in operacoes.items():
+        for chave, op in operacao.items():
             print(f"{chave}. {op['descricao']}")
 
         escolha = input("\nEscolha uma opção: ")
-        operacao = operacoes.get(escolha)
+        operacao = operacao.get(escolha)
 
         if not operacao:
             print("Opção inválida. Tente novamente.")
