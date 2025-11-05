@@ -287,7 +287,43 @@ Exercícios introdutórios sobre variáveis, tipos de dados e operações básic
 
 ## Capítulo 5 - Métodos/Funções
 
-*Adicione aqui os exercícios e scripts do capítulo 5.*
+<img src="image/capitulo_05/exercicio5.1.png" alt="Exercício 5.1" width="600" />
+
+[Script 5.1 - Calculadora básica (versão 3)](scripts/capitulo_05/calculadora_v3.py)
+
+***
+
+<img src="image/capitulo_05/exercicio5.2.png" alt="Exercício 5.2" width="600" />
+
+[Script 5.2 - Calculadora básica (versão 4)](scripts/capitulo_05/calculadora_v4.py)
+
+***
+
+<img src="image/capitulo_05/exercicio5.3.png" alt="Exercício 5.3" width="600" />
+
+[Script 5.3 - Conversor de temperaturas](scripts/capitulo_05/conversor_temperaturas.py)
+
+***
+
+<img src="image/capitulo_05/exercicio5.4.1.png" alt="Exercício 5.4 - Parte 1" width="600" />
+
+
+<img src="image/capitulo_05/exercicio5.4.2.png" alt="Exercício 5.4 - Parte 2" width="600" />
+
+
+[Script 5.4 - Leis de Ohms](scripts/capitulo_05/lei_ohm.py)
+
+***
+
+<img src="image/capitulo_05/exercicio5.5.1.png" alt="Exercício 5.5 - Parte 1" width="600" />
+
+
+<img src="image/capitulo_05/exercicio5.5.2.png" alt="Exercício 5.5 - Parte 2" width="600" />
+
+
+[Script 5.5 - Sistema de vendas](scripts/capitulo_05/sistema_vendas.py)
+
+
 
 ---
 
